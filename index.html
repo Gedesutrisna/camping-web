@@ -1,0 +1,524 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goon</title>
+    <link rel="icon" href="/assets/icon.svg" type="image/icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Graduate&family=Inter&family=Original+Surfer&family=Playfair+Display:wght@500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+</head>
+<body>
+  <div class="main">
+    <nav class="navbar custom-navbar navbar-expand-lg">
+        <div class="container-fluid py-2 py-lg-4 px-5 d-flex align-items-center">
+          <a class="navbar-brand ms-4" href="#"><img src="/assets/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav gap-lg-5 mx-auto">  
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link right" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link right" href="#">Contact</a>
+              </li>
+            </ul>
+            <button class="book-now d-flex align-items-center gap-3 "><p class="mb-0">Book Now</p><img src="/assets/book-now-btn.svg" alt=""></button>
+          </div>
+        </div>
+      </nav>  
+      <section class="">
+        <img id="back" src="/assets/mback2.svg" class="d-none d-lg-block" alt="">
+        <h1 class="title" id="title">GUNUNG</h1>
+        <img id="front" src="/assets/mfront.svg" class="d-none d-lg-block" alt="">
+      </section>
+      <div class="middle d-flex flex-column-reverse flex-lg-row justify-content-center align-items-center gap-5">
+        <button id="mButton" class="explore-now d-flex align-items-center gap-3"><p class="mb-0">Explore Now</p><img src="/assets/book-now-btn.svg" alt=""></button>
+        <p id="mP" class="text mb-0">Lorem ipsum dolor amet consectetur <br> adipisicing. Sunt atque culpa inventore.</p>
+      </div>
+
+  </div>
+      <div class="mountain d-none d-lg-block">
+        <div class="swiper-container">
+          <div class="swiper-wrapper d-flex align-items-center">
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="/assets/m1.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="/assets/m2.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="/assets/m3.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="/assets/m4.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <section class="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12  d-flex align-items-center">
+            <h1 class="title">SERVICES</h1>
+          </div>
+          <div class="col-lg-3 col-12" data-aos="fade-left" data-aos-delay="200">
+            <h1 class="sub">Camping</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic quos saepe error,</p>
+          </div>
+          <div class="col-lg-3 col-12" data-aos="fade-left" data-aos-delay="300">
+            <h1 class="sub">Hiking</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic quos saepe error,</p>
+          </div>
+          <div class="col-lg-3 col-12" data-aos="fade-left" data-aos-delay="400">
+            <h1 class="sub">Sherpa</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic quos saepe error,</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="">
+        <div class="row">
+          <div id="left" class="col position-relative d-none d-lg-block">
+            <img class="back" src="/assets/aboutback.svg" alt="">
+            <img class="front" src="/assets/aboutfront.svg" alt="" data-aos="fade-right">
+          </div>
+          <div id="right" class="col text d-flex align-items-center" data-aos="fade-left">
+            <div class="box">
+              <p class="sub">ABOUT</p>
+              <h1 class="title">GOON</h1>
+              <p class="meat">
+                Lorem ipsum dolor amet, consectetur adipisicing elit. Architecto eum similique
+                ipsum, asperiores nesciunt dignissimos eos nam, consectetur vel amet in suscipit
+                veniam id aliquid voluptatibus dolorem.
+                Lorem ipsum dolor amet, consectetur adipisicing elit. Architecto rem similique
+                ipsum, asperiores nesciunt dignissimos
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gear">
+      <div class="">
+        <div class="row">
+          <h1 class="title text-center text-lg-end">GEAR</h1>
+          <div class="d-flex align-items-center justify-content-center justify-content-lg-end gap-5 mb-3">
+            <p class="filter">All</p>
+            <p class="filter">Tent</p>
+            <p class="filter">Backpack</p>
+          </div>
+        </div>
+        <div class="swiper-container2 overflow-hidden">
+          <div class="swiper-wrapper d-flex align-items-center">
+            <div class="swiper-slide">
+              <div class="product text-center">
+                <img src="/assets/product1.svg" alt="">
+                <div class="tag d-flex align-items-center justify-content-between">
+                  <h1 class="name">TENT</h1>
+                  <h1 class="price">$234</h1>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product text-center">
+                <img src="/assets/product2.svg" alt="">
+                <div class="tag d-flex align-items-center justify-content-between">
+                  <h1 class="name">MATRAS</h1>
+                  <h1 class="price">$234</h1>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product text-center">
+                <img src="/assets/product3.svg" alt="">
+                <div class="tag d-flex align-items-center justify-content-between">
+                  <h1 class="name">BACKPACK</h1>
+                  <h1 class="price">$234</h1>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product text-center">
+                <img src="/assets/product4.svg" alt="">
+                <div class="tag d-flex align-items-center justify-content-between">
+                  <h1 class="name">BOOTS</h1>
+                  <h1 class="price">$234</h1>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product text-center">
+                <img src="/assets/product5.svg" alt="">
+                <div class="tag d-flex align-items-center justify-content-between">
+                  <h1 class="name">TENT</h1>
+                  <h1 class="price">$234</h1>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hotel">
+      <div class="container">
+        <div class="row">
+          <h1 class="title text-center">HOTEL</h1>
+          <div class="d-flex align-items-center justify-content-center gap-5 mb-3">
+            <p class="filter active">All</p>
+            <p class="filter">Bali</p>
+            <p class="filter">Java</p>
+          </div>
+        </div>
+        <div class="swiper-container3">
+          <div class="swiper-wrapper d-flex align-items-center">
+            <div class="swiper-slide">
+              <div class="">
+                <div class="box-hotel box-1 d-flex align-items-end flex-column">
+                  <div class="review d-flex align-items-center gap-2 float-end mb-auto me-4">
+                    <img src="/assets/star.svg" alt="">
+                    <p class="rate mb-0">4.8</p>
+                  </div>
+                  <div class="desc d-flex justify-content-between align-items-center">
+                    <div class="d-left">
+                      <h1 class="name mb-0">Goon Hotel</h1>
+                      <div class="d-flex align-items-center gap-2">
+                        <img src="/assets/location.svg" alt="">
+                        <p class="location mb-0">Bali, Indonesia</p>
+                      </div>
+                    </div>
+                    <h1 class="price mb-0">$243</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="">
+                <div class="box-hotel box-2 d-flex align-items-end flex-column">
+                  <div class="review d-flex align-items-center gap-2 float-end mb-auto me-4">
+                    <img src="/assets/star.svg" alt="">
+                    <p class="rate mb-0">4.8</p>
+                  </div>
+                  <div class="desc d-flex justify-content-between align-items-center">
+                    <div class="d-left">
+                      <h1 class="name mb-0">Goon Hotel</h1>
+                      <div class="d-flex align-items-center gap-2">
+                        <img src="/assets/location.svg" alt="">
+                        <p class="location mb-0">Bali, Indonesia</p>
+                      </div>
+                    </div>
+                    <h1 class="price mb-0">$243</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="">
+                <div class="box-hotel box-3 d-flex align-items-end flex-column">
+                  <div class="review d-flex align-items-center gap-2 float-end mb-auto me-4">
+                    <img src="/assets/star.svg" alt="">
+                    <p class="rate mb-0">4.8</p>
+                  </div>
+                  <div class="desc d-flex justify-content-between align-items-center">
+                    <div class="d-left">
+                      <h1 class="name mb-0">Goon Hotel</h1>
+                      <div class="d-flex align-items-center gap-2">
+                        <img src="/assets/location.svg" alt="">
+                        <p class="location mb-0">Bali, Indonesia</p>
+                      </div>
+                    </div>
+                    <h1 class="price mb-0">$243</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="">
+                <div class="box-hotel box-4 d-flex align-items-end flex-column">
+                  <div class="review d-flex align-items-center gap-2 float-end mb-auto me-4">
+                    <img src="/assets/star.svg" alt="">
+                    <p class="rate mb-0">4.8</p>
+                  </div>
+                  <div class="desc d-flex justify-content-between align-items-center">
+                    <div class="d-left">
+                      <h1 class="name mb-0">Goon Hotel</h1>
+                      <div class="d-flex align-items-center gap-2">
+                        <img src="/assets/location.svg" alt="">
+                        <p class="location mb-0">Bali, Indonesia</p>
+                      </div>
+                    </div>
+                    <h1 class="price mb-0">$243</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="proof">
+      <div class="container">
+        <h1 class="title text-center">CUSTOMER PROOF</h1>
+        <div class="row d-flex d-lg-none">
+          <div class="swiper-container-proof overflow-hidden">
+            <div class="swiper-wrapper d-flex">
+              <div class="swiper-slide">
+                <div class="box-proof p-3">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <img src="/assets/p1.png" alt="">
+                    <div class="d-right">
+                      <p class="serv mb-0">Hiking</p>
+                      <h1 class="name">USER</h1>
+                    </div>
+                  </div>
+                  <p class="text">Lorem ipsum dolor sit amet consectetur elit neque quos saepe ipsum hic adipisicing.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-proof p-3">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <img src="/assets/p2.png" alt="">
+                    <div class="d-right">
+                      <p class="serv mb-0">Camping</p>
+                      <h1 class="name">USER</h1>
+                    </div>
+                  </div>
+                  <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit neque hic quos saepe error.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-proof p-3">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <img src="/assets/p3.png" alt="">
+                    <div class="d-right">
+                      <p class="serv mb-0">Hiking</p>
+                      <h1 class="name">USER</h1>
+                    </div>
+                  </div>
+                  <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit neque.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center d-none d-lg-flex">
+          <div class="col-4 d-flex justify-content-end">
+            <div class="box-proof p-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <img src="/assets/p1.png" alt="">
+                <div class="d-right">
+                  <p class="serv mb-0">Hiking</p>
+                  <h1 class="name">USER</h1>
+                </div>
+              </div>
+              <p class="text">Lorem ipsum dolor sit amet consectetur elit neque quos saepe ipsum hic adipisicing.</p>
+            </div>
+          </div>
+          <div class="col-4 d-flex justify-content-center">
+            <div class="box-proof p-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <img src="/assets/p2.png" alt="">
+                <div class="d-right">
+                  <p class="serv mb-0">Camping</p>
+                  <h1 class="name">USER</h1>
+                </div>
+              </div>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit neque hic quos saepe error.</p>
+            </div>
+          </div>
+          <div class="col-4 d-flex justify-content-start">
+            <div class="box-proof p-3" data-aos="fade-up" data-aos-delay="400">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <img src="/assets/p3.png" alt="">
+                <div class="d-right">
+                  <p class="serv mb-0">Hiking</p>
+                  <h1 class="name">USER</h1>
+                </div>
+              </div>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit neque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="container">
+        <div class="row gap-5">
+          <div class="col-12 col-lg-5 d-flex align-items-center">
+            <h1 class="title">FREQUENTLY <br> ASKED QUESTIONS</h1>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="wrapper">
+                <div class="col">
+                  <div class="box-faq  mb-4" data-aos="fade-left" data-aos-delay="200">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                      <h1 class="faq-title">Answer Your Questions</h1>
+                      <button class="btn-faq"><img src="/assets/plus.svg" alt=""></button>
+                    </div>
+                    <p class="answer-text show">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                      Tenetur, veniam, minima nostrum laboriosam atque laborum, 
+                      ipsam cumque esse suscipit at nesciunt? Quo unde
+                    </p>
+                    <hr class="line">
+                  </div>
+                  <div class="box-faq " data-aos="fade-left" data-aos-delay="300">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                      <h1 class="faq-title">Answer Your Questions</h1>
+                      <button class="btn-faq"><img src="/assets/plus.svg" alt=""></button>
+                    </div>
+                    <p class="answer-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                      Tenetur, veniam, minima nostrum laboriosam atque laborum, 
+                      ipsam cumque esse suscipit at nesciunt? Quo unde
+                    </p>
+                    <hr class="line">
+                  </div>
+                  <div class="box-faq " data-aos="fade-left" data-aos-delay="400">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                      <h1 class="faq-title">Answer Your Questions</h1>
+                      <button class="btn-faq"><img src="/assets/plus.svg" alt=""></button>
+                    </div>
+                    <p class="answer-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                      Tenetur, veniam, minima nostrum laboriosam atque laborum, 
+                      ipsam cumque esse suscipit at nesciunt? Quo unde
+                    </p>
+                    <hr class="line">
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 d-none d-lg-block" data-aos="zoom-in">
+            <div class="box-gal d-flex">
+              <img src="/assets/g1.svg" class="img-fluid" alt="">
+              <div class="box-tag t-1 align-self-end">
+                <h1 class="name mb-0">Mount Ijen</h1>
+                <div class="d-flex align-items-center gap-2 w-100 overflow-hidden">
+                  <img src="/assets/location.svg" alt="">
+                  <p class="location mb-0">Java, Indonesia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row mb-4">
+              <div class="col"data-aos="zoom-in">
+                <div class="box-gal d-flex">
+                  <img src="/assets/g2.svg" class="img-fluid" alt="">
+                  <div class="box-tag t-2 align-self-end">
+                    <h1 class="name mb-0">Mount Ijen</h1>
+                    <div class="d-flex align-items-center gap-2 w-100">
+                      <img src="/assets/location.svg" alt="">
+                      <p class="location mb-0">Java, Indonesia</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="zoom-in">
+                <div class="box-gal d-flex">
+                  <img src="/assets/g3.svg" class="img-fluid" alt="">
+                  <div class="box-tag t-3 align-self-end">
+                    <h1 class="name mb-0">Mount Bromo</h1>
+                    <div class="d-flex align-items-center gap-2 w-100">
+                      <img src="/assets/location.svg" alt="">
+                      <p class="location mb-0">Java, Indonesia</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8" data-aos="zoom-in">
+                <div class="box-gal d-flex">
+                  <img src="/assets/g4.svg" class="img-fluid h-100" alt="">
+                  <div class="box-tag t-4 align-self-end">
+                    <h1 class="name mb-0">Mount Bromo</h1>
+                    <div class="d-flex align-items-center gap-2 w-100">
+                      <img src="/assets/location.svg" alt="">
+                      <p class="location mb-0">Java, Indonesia</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="zoom-in">
+                <div class="box-gal d-flex h-100">
+                  <img src="/assets/g5.svg" class="img-fluid" alt="">
+                  <div class="box-tag t-5 align-self-end">
+                    <h1 class="name mb-0">Mount Bromo</h1>
+                    <div class="d-flex align-items-center gap-2">
+                      <img src="/assets/location.svg" alt="">
+                      <p class="location mb-0">Java, Indonesia</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>    
+  <footer>
+    <div class="container">
+      <div class="row flex-column flex-lg-row align-items-center justify-content-between footer-row">
+        <div class="col text-center text-lg-start mb-3 mb-lg-0">
+          <p class="mb-0 footer-text">Copyright 2023 All Rights Reserved.</p>
+        </div>
+        <div class="col">
+          <div class="d-flex gap-3 justify-content-center mb-3 mb-lg-0">
+            <img src="/assets/fb.svg" alt="">
+            <img src="/assets/ig.svg" alt="">
+            <img src="/assets/tw.svg" alt="">
+          </div>
+        </div>
+        <div class="col d-flex justify-content-lg-end justify-content-center gap-3">
+          <p class="mb-0 footer-text">Terms & Conditions</p>
+          <p class="mb-0 footer-text">Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+  </footer>    
+</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000
+  });
+</script>
+
+<script src="script.js"></script>
+</html>
